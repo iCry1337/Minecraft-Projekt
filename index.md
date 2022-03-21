@@ -1,12 +1,12 @@
-## Welcome to GitHub Pages
+## Willkommen zum Minecraft Projekt von NomexPLayZ
 
-You can use the [editor on GitHub](https://github.com/iCry1337/Minecraft-Projekt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Da einige Probleme haben, und nicht Wissen wie etwas funktioniert, erkläre ich hier in einzelnen Schritten, wie genau etwas funktioniert.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Der Launcher
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Der Launcher stellt dem Spieler einen voll automatisierten Download von unserem Client zur Verfügung, der Launcher ist deshalb notwendig, da weder auf CurseForge noch im MultiMC unser Client bereitgestellt worden ist, das hosten wir selber auf unserem eigenem Webserver. Damit fällt es uns leichter, euch Updates zukommen zu lassen oder anpassungen am Client um Crashes oder etwaige andere Probleme zu minimieren.
 
 ```markdown
 Syntax highlighted code block
