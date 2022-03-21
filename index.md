@@ -1,37 +1,44 @@
-## Willkommen zum Minecraft Projekt von NomexPLayZ
+# Willkommen zum Minecraft Projekt von NomexPLayZ
 
 Da einige Probleme haben, und nicht Wissen wie etwas funktioniert, erkläre ich hier in einzelnen Schritten, wie genau etwas funktioniert.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Der Launcher
+## Der Launcher
 
 Der Launcher stellt dem Spieler einen voll automatisierten Download von unserem Client zur Verfügung, der Launcher ist deshalb notwendig, da weder auf CurseForge noch im MultiMC unser Client bereitgestellt worden ist, das hosten wir selber auf unserem eigenem Webserver. Damit fällt es uns leichter, euch Updates zukommen zu lassen oder anpassungen am Client um Crashes oder etwaige andere Probleme zu minimieren.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Die Java Installation
 
-- Bulleted
-- List
+Insofern noch nicht die benötigte Java Version installiert ist, folge den Anweisungen vom Link im Launcher und beachte dass du im Installations Prozess die roten Kreuze änderst wie im folgenden Bild.
 
-1. Numbered
-2. List
+![Image1](https://i.imgur.com/duW4aGl.png)
 
-**Bold** and _Italic_ and `Code` text
+Wenn das nicht so ausschaut funktioniert der Launcher nicht und du kannst ihn nicht verwenden.
 
-[Link](url) and ![Image](src)
-```
+## MultiMC Version
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Da ich das ganze nicht dezentralisieren möchte gibt es leider keine MultiMC Version.
 
-### Jekyll Themes
+## CurseForge Version
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iCry1337/Minecraft-Projekt/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Da ich das ganze nicht dezentralisieren möchte gibt es leider keine CurseForge Version.
 
-### Support or Contact
+## Der Chunkloader
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Der Chunkloader funktioniert in 2 Variationen, mit 2 Optionen.
+
+- Online Chunkloader - Personal Loader
+- Online Chunkloader - Welt Chunkloader (Wird nicht gegeben, da wir alle in einer Welt spielen)
+- Offline Chunkloader - Personal Loader
+- Offline Chunkloader Welt Chunkloader (Wird nicht gegeben, da wir alle in einer Welt spielen)
+
+### Was bedeutet das?
+Sobald du den Server betrittst wird dein gesetzter Chunkloader den eingestellten bereich laden. Sobald du den Server verlässt wird der Chunkloader entfernt.
+
+### Warum nicht permanennt geladen lassen?
+Weil ich auf Performance setze, wenn nun 10 leute permanennt eine Mobfarm laufen lassen frisst dies Resourcen die man auch einsparen könnte und so lags verhindert werden können.
+
+### Wie erstelle ich den Personal Chunkloader?
+Du platzierst einen Eisenblock auf den Boden und machst einen Rechtsklick mit einem Blaze Rod auf diesen, dann öffnet sich ein Menü mit dem du einen Bereich erstellen kannst welcher dauerhaft geladen bleibt während du auf dem Server online bist. Maximal sind dabei 5x5 Blöcke erlaubt. Jeder Spieler hat zu Beginn 5 Chunkloader Tokens zur Verfügung.
+
+![Image2](https://i.imgur.com/bfilS4e.png)
